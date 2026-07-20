@@ -342,7 +342,9 @@
     const fCopy = $('#footerCopy');
     if (fName) fName.textContent = PROFILE.name;
     if (fTitle) fTitle.textContent = PROFILE.title;
-    if (fCopy) fCopy.textContent = '© ' + new Date().getFullYear();
+    if (fCopy) {
+      fCopy.textContent = '© 2026 晨揚企業有限公司. All rights reserved.';
+    }
   }
 
   /* ---------------------------------------------------------------
